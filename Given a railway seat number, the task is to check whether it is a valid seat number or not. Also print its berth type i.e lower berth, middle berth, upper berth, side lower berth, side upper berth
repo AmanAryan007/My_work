@@ -1,0 +1,8 @@
+x = int(input())
+dic={1:'lower berth', 2:"middle berth", 3:"upper birth",4:"lower berth",5:"middle berth",6:"upper berth",7:"Side lower berth",8:"Side upper berth"}
+if x <9:
+    print(dic[x])
+else:
+    while x > 8:
+        x = x-8
+print(dic[x])
